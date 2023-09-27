@@ -24,6 +24,20 @@ doc: https://github.com/ben-rogerson/twin.examples/tree/master/vite-emotion-type
 npm install --save-dev twin.macro @emotion/babel-plugin-jsx-pragmatic @babel/plugin-transform-react-jsx babel-plugin-macros tailwindcss
 ```
 
+### 更新 tailwindCSS 使用方法
+
+* 安裝 postcss, autoprefixer
+
+```
+npm install -D postcss autoprefixer
+```
+
+* 直接在 jsx 檔案中使用 tailwindCSS
+
+```
+<div className="p-10 bg-red-500 rounded text-black font-bold text-4xl">This my button component.</div>
+```
+
 ## 安裝 ts for react
 
 ```

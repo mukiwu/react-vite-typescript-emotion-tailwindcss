@@ -1,9 +1,6 @@
 import { useState } from "react"
 import reactLogo from "./assets/react.svg"
-import tw from "twin.macro"
 import "./App.css"
-
-const Button = tw.button`p-10 bg-red-500 rounded text-black font-bold text-4xl`
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,7 +27,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Button>This my button component.</Button>
+      <div className="p-10 bg-red-500 rounded text-black font-bold text-4xl">This my button component.</div>
     </div>
   )
 }
